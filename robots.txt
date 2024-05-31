@@ -1,1 +1,1 @@
-Sitemap: https://future-robotics-lab.github.io/future-robotics-lab/sitemap.xml
+Sitemap: https://future-robotics-lab.github.io/sitemap.xml
