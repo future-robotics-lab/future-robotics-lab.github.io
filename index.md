@@ -1,7 +1,7 @@
 ---
 ---
 
-# future-robotics-labDESCRIPTION=An engaging 1-3 sentence description of your lab.'s Website
+# FuTURE Lab - pushing the boundaries of medical robots and devices.
 
 
 
