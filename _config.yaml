@@ -1,6 +1,6 @@
 # site properties and page defaults
-title: 
-subtitle: 
+title: title
+subtitle: subtitle
 description: 
 header: images/background.jpg
 footer: images/background.jpg
