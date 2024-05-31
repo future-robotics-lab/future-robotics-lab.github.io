@@ -6,7 +6,7 @@ header: images/background.jpg
 footer: images/background.jpg
 header-dark: false
 footer-dark: false
-proofer: false
+proofer: true
 
 # site social media and other links
 links:
