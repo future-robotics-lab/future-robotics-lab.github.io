@@ -1,5 +1,5 @@
 
-# future-robotics-labDESCRIPTION=An engaging 1-3 sentence description of your lab.'s Website
+# FuTURE Lab: pushing boundaries in medical robots and devices.
 
 Visit **[future-robotics-lab.github.io](https://future-robotics-lab.github.io)** 🚀
 
