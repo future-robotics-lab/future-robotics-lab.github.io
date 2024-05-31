@@ -4,6 +4,8 @@ subtitle:
 description: 
 header: images/background.jpg
 footer: images/background.jpg
+header-dark: false
+footer-dark: false
 proofer: false
 
 # site social media and other links
@@ -11,9 +13,9 @@ links:
   email: gpittiglio@wpi.edu
   orcid: 0000-0002-0714-5267
   google-scholar: WeBVGeUAAAAJ
-  github: future-robotics-labDESCRIPTION=An engaging 1-3 sentence description of your lab.
-  twitter: future-robotics-labDESCRIPTION=An engaging 1-3 sentence description of your lab.
-  youtube: future-robotics-labDESCRIPTION=An engaging 1-3 sentence description of your lab.
+  github: future-robotics-lab
+  twitter: @giovpitt
+  youtube: @giovannipittiglio
 
 ### jekyll settings
 
