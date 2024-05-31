@@ -17,14 +17,13 @@ nav:
 
 {% include list.html data="members" component="portrait" filters="role: phd" %}
 
-[//]: #{% include section.html %}
+{% include section.html %}
 
-[//]: #{% capture content %}
+{% capture content %}
 
-[//]: #{% include figure.html image="images/photo.jpg" %}
-[//]: #{% include figure.html image="images/photo.jpg" %}
-[//]: #{% include figure.html image="images/photo.jpg" %}
+{% include figure.html image="images/color_red-BG_spell.png" %}
+{% include figure.html image="images/WPI.png" %}
 
-[//]: #{% endcapture %}
+{% endcapture %}
 
 {% include grid.html style="square" content=content %}
