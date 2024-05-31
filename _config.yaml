@@ -1,19 +1,18 @@
 # site properties and page defaults
-title: future-robotics-labDESCRIPTION=An engaging 1-3 sentence description of your lab.
+title: 
 subtitle: 
 description: 
 header: images/background.jpg
 footer: images/background.jpg
-proofer: false
+proofer: true
 
 # site social media and other links
 links:
   email: gpittiglio@wpi.edu
   orcid: 0000-0002-0714-5267
   google-scholar: WeBVGeUAAAAJ
-  github: future-robotics-labDESCRIPTION=An engaging 1-3 sentence description of your lab.
-  twitter: future-robotics-labDESCRIPTION=An engaging 1-3 sentence description of your lab.
-  youtube: future-robotics-labDESCRIPTION=An engaging 1-3 sentence description of your lab.
+  github: future-robotics-lab
+  youtube: @giovannipittiglio
 
 ### jekyll settings
 
