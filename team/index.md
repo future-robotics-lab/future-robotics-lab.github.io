@@ -16,14 +16,3 @@ nav:
 # PhD Students: looking for students excited to work on medical robots. Reach out to Giovanni Pittiglio with a short CV at gpittiglio@wpi.edu!
 
 {% include list.html data="members" component="portrait" filters="role: phd" %}
-
-{% include section.html %}
-
-{% capture content %}
-
-{% include figure.html image="images/color_red-BG_spell.png" %}
-{% include figure.html image="images/WPI.png" %}
-
-{% endcapture %}
-
-{% include grid.html style="square" content=content %}
