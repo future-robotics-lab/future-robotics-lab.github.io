@@ -1,174 +1,212 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
-- id: doi:10.1093/nar/gkad1082
-  title: "The Monarch Initiative in 2024: an analytic platform integrating phenotypes,\
-    \ genes\_and diseases across species"
+- id: doi:10.1038/s44172-023-00098-9
+  title: Personalized magnetic tentacles for targeted photothermal cancer therapy
+    in peripheral lungs
   authors:
-  - Tim E Putman
-  - Kevin Schaper
-  - Nicolas Matentzoglu
-  - "Vincent\_P Rubinetti"
-  - "Faisal\_S Alquaddoomi"
-  - Corey Cox
-  - J Harry Caufield
-  - Glass Elsarboukh
-  - Sarah Gehrke
-  - Harshad Hegde
-  - "Justin\_T Reese"
-  - Ian Braun
-  - "Richard\_M Bruskiewich"
-  - Luca Cappelletti
-  - Seth Carbon
-  - "Anita\_R Caron"
-  - "Lauren\_E Chan"
-  - "Christopher\_G Chute"
-  - "Katherina\_G Cortes"
-  - "Vin\xEDcius De\_Souza"
-  - Tommaso Fontana
-  - "Nomi\_L Harris"
-  - "Emily\_L Hartley"
-  - Eric Hurwitz
-  - "Julius\_O B Jacobsen"
-  - Madan Krishnamurthy
-  - "Bryan\_J Laraway"
-  - "James\_A McLaughlin"
-  - "Julie\_A McMurry"
-  - "Sierra\_A T Moxon"
-  - "Kathleen\_R Mullen"
-  - "Shawn\_T O\u2019Neil"
-  - "Kent\_A Shefchek"
-  - Ray Stefancsik
-  - Sabrina Toro
-  - "Nicole\_A Vasilevsky"
-  - "Ramona\_L Walls"
-  - "Patricia\_L Whetzel"
-  - David Osumi-Sutherland
-  - Damian Smedley
-  - "Peter\_N Robinson"
-  - "Christopher\_J Mungall"
-  - "Melissa\_A Haendel"
-  - "Monica\_C Munoz-Torres"
-  publisher: Nucleic Acids Research
-  date: '2023-11-24'
-  link: https://doi.org/gs6kmr
-  orcid: 0000-0002-4655-3773
+  - Giovanni Pittiglio
+  - James H. Chandler
+  - Tomas da Veiga
+  - Zaneta Koszowska
+  - Michael Brockdorff
+  - Peter Lloyd
+  - Katie L. Barry
+  - Russell A. Harris
+  - James McLaughlan
+  - Cecilia Pompili
+  - Pietro Valdastri
+  publisher: Communications Engineering
+  date: '2023-07-27'
+  link: https://doi.org/gtxgth
+  orcid: 0000-0002-0714-5267
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1101/2023.10.11.560955
-  title: Integration of 168,000 samples reveals global patterns of the human gut microbiome
+- id: doi:10.1109/LRA.2023.3264770
+  title: A Magnetically-Actuated Coiling Soft Robot With Variable Stiffness
   authors:
-  - Richard J. Abdill
-  - Samantha P. Graham
-  - Vincent Rubinetti
-  - Frank W. Albert
-  - Casey S. Greene
-  - Sean Davis
-  - Ran Blekhman
-  publisher: Cold Spring Harbor Laboratory
-  date: '2023-10-11'
-  link: https://doi.org/gsvf5z
-  orcid: 0000-0002-4655-3773
+  - Peter Lloyd
+  - Theodosia Lourdes Thomas
+  - Venkatasubramanian Kalpathy Venkiteswaran
+  - Giovanni Pittiglio
+  - James H. Chandler
+  - Pietro Valdastri
+  - Sarthak Misra
+  publisher: IEEE Robotics and Automation Letters
+  date: '2023-06-01'
+  link: https://doi.org/gs4pfp
+  orcid: 0000-0002-0714-5267
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1093/nar/gkad289
-  title: 'MyGeneset.info: an interactive and programmatic platform for community-curated
-    and user-created collections of genes'
+- id: doi:10.1109/TRO.2022.3209038
+  title: Collaborative Magnetic Manipulation via Two Robotically Actuated Permanent
+    Magnets
   authors:
-  - Ricardo Avila
-  - Vincent Rubinetti
-  - Xinghua Zhou
-  - Dongbo Hu
-  - Zhongchao Qian
-  - Marco Alvarado Cano
-  - Everaldo Rodolpho
-  - Ginger Tsueng
-  - Casey Greene
-  - Chunlei Wu
-  publisher: Nucleic Acids Research
-  date: '2023-04-18'
-  link: https://doi.org/gr5hb5
-  orcid: 0000-0002-4655-3773
+  - Giovanni Pittiglio
+  - Michael Brockdorff
+  - Tomas da Veiga
+  - Joshua Davy
+  - James Henry Chandler
+  - Pietro Valdastri
+  publisher: IEEE Transactions on Robotics
+  date: '2023-04-01'
+  link: https://doi.org/gscqd9
+  orcid: 0000-0002-0714-5267
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1101/2023.01.05.522941
-  title: Hetnet connectivity search provides rapid insights into how two biomedical
-    entities are related
+- id: doi:10.1109/LRA.2023.3274431
+  title: Closed Loop Static Control of Multi-Magnet Soft Continuum Robots
   authors:
-  - Daniel S. Himmelstein
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Kyle Kloster
-  - Benjamin J. Heil
-  - Faisal Alquaddoomi
-  - Dongbo Hu
-  - David N. Nicholson
-  - Yun Hao
-  - Blair D. Sullivan
-  - Michael W. Nagle
-  - Casey S. Greene
-  publisher: Cold Spring Harbor Laboratory
-  date: '2023-01-07'
-  link: https://doi.org/grmcb9
-  orcid: 0000-0002-4655-3773
+  - Giovanni Pittiglio
+  - Andrew L. Orekhov
+  - Tomas da Veiga
+  - "Simone Cal\xF2"
+  - James H. Chandler
+  - Nabil Simaan
+  - Pietro Valdastri
+  publisher: IEEE Robotics and Automation Letters
+  date: '2023-07-01'
+  link: https://doi.org/gss6xz
+  orcid: 0000-0002-0714-5267
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1093/gigascience/giad047
-  title: Hetnet connectivity search provides rapid insights into how biomedical entities
-    are related
+- id: doi:10.1109/LRA.2023.3268588
+  title: Six-Degree-of-Freedom Localization Under Multiple Permanent Magnets Actuation
   authors:
-  - Daniel S Himmelstein
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Kyle Kloster
-  - Benjamin J Heil
-  - Faisal Alquaddoomi
-  - Dongbo Hu
-  - David N Nicholson
-  - Yun Hao
-  - Blair D Sullivan
-  - Michael W Nagle
-  - Casey S Greene
-  publisher: GigaScience
-  date: '2022-12-28'
-  link: https://doi.org/gsd85n
-  orcid: 0000-0002-4655-3773
+  - "Tom\xE1s da Veiga"
+  - Giovanni Pittiglio
+  - Michael Brockdorff
+  - James H. Chandler
+  - Pietro Valdastri
+  publisher: IEEE Robotics and Automation Letters
+  date: '2023-06-01'
+  link: https://doi.org/gs3djq
+  orcid: 0000-0002-0714-5267
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1101/2022.02.18.461833
-  title: 'MolEvolvR: A web-app for characterizing proteins using molecular evolution
-    and phylogeny'
+- id: doi:10.1089/soro.2021.0090
+  title: Patient-Specific Magnetic Catheters for Atraumatic Autonomous Endoscopy
   authors:
-  - Jacob D Krol
-  - Joseph T Burke
-  - Samuel Z Chen
-  - Lo M Sosinski
-  - Faisal S Alquaddoomi
-  - Evan P Brenner
-  - Ethan P Wolfe
-  - Vincent P Rubinetti
-  - Shaddai Amolitos
-  - Kellen M Reason
-  - John B Johnston
-  - Janani Ravi
-  publisher: Cold Spring Harbor Laboratory
-  date: '2022-02-22'
-  link: https://doi.org/gstx7j
-  orcid: 0000-0002-4655-3773
+  - Giovanni Pittiglio
+  - Peter Lloyd
+  - Tomas da Veiga
+  - Onaizah Onaizah
+  - Cecilia Pompili
+  - James H. Chandler
+  - Pietro Valdastri
+  publisher: Soft Robotics
+  date: '2022-12-01'
+  link: https://doi.org/gsdzqb
+  orcid: 0000-0002-0714-5267
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1186/s13059-020-02021-3
-  title: Compressing gene expression data using multiple latent space dimensionalities
-    learns complementary biological representations
+- id: doi:10.1109/LRA.2022.3191552
+  title: Magnetic Soft Continuum Robots With Braided Reinforcement
   authors:
-  - Gregory P. Way
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Daniel S. Himmelstein
-  - Casey S. Greene
-  publisher: Genome Biology
-  date: '2020-05-11'
-  link: https://doi.org/gg2mjh
-  orcid: 0000-0002-4655-3773
+  - Peter Lloyd
+  - Onaizah Onaizah
+  - Giovanni Pittiglio
+  - Damith Katudampe Vithanage
+  - James H. Chandler
+  - Pietro Valdastri
+  publisher: IEEE Robotics and Automation Letters
+  date: '2022-10-01'
+  link: https://doi.org/gtxgtj
+  orcid: 0000-0002-0714-5267
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1109/TAC.2020.3047553
+  title: On the Observability and Observer Design on the Special Orthogonal Group
+    Based on Partial Inertial Sensing
+  authors:
+  - Giovanni Pittiglio
+  - Simone Calo
+  - Pietro Valdastri
+  publisher: IEEE Transactions on Automatic Control
+  date: '2021-10-01'
+  link: https://doi.org/gtxgtk
+  orcid: 0000-0002-0714-5267
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1088/2516-1091/ab9f41
+  title: 'Challenges of continuum robots in clinical context: a review'
+  authors:
+  - Tomas da Veiga
+  - James H Chandler
+  - Peter Lloyd
+  - Giovanni Pittiglio
+  - Nathan J Wilkinson
+  - Ali K Hoshiar
+  - Russell A Harris
+  - Pietro Valdastri
+  publisher: Progress in Biomedical Engineering
+  date: '2020-08-03'
+  link: https://doi.org/gksdvw
+  orcid: 0000-0002-0714-5267
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1109/LRA.2019.2928761
+  title: Adaptive Dynamic Control for Magnetically Actuated Medical Robots
+  authors:
+  - Lavinia Barducci
+  - Giovanni Pittiglio
+  - Joseph C. Norton
+  - Keith L. Obstein
+  - Pietro Valdastri
+  publisher: IEEE Robotics and Automation Letters
+  date: '2019-10-01'
+  link: https://doi.org/gtxgtm
+  orcid: 0000-0002-0714-5267
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1109/lra.2019.2894907
+  title: 'Magnetic Levitation for Soft-Tethered Capsule Colonoscopy Actuated With
+    a Single Permanent Magnet: A Dynamic Control Approach'
+  authors:
+  - Giovanni Pittiglio
+  - Lavinia Barducci
+  - James W. Martin
+  - Joseph C. Norton
+  - Carlo A. Avizzano
+  - Keith L. Obstein
+  - Pietro Valdastri
+  publisher: IEEE Robotics and Automation Letters
+  date: '2019-04-01'
+  link: https://doi.org/ggzj2q
+  orcid: 0000-0002-0714-5267
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1109/icra.2018.8460822
+  title: 'Dynamic Control of Cable Driven Parallel Robots with Unknown Cable Stiffness:
+    a Joint Space Approach'
+  authors:
+  - Giovanni Pittiglio
+  - Alexandros Kogkas
+  - Joric Oude Vrielink
+  - George Mylonas
+  publisher: 2018 IEEE International Conference on Robotics and Automation (ICRA)
+  date: '2018-05-01'
+  link: https://doi.org/gtxgtn
+  orcid: 0000-0002-0714-5267
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.ifacol.2016.10.465
+  title: Design, Realization and Experimental Evaluation of a Haptic Stick for Shared
+    Control Studies
+  authors:
+  - Lorenzo Pollini
+  - Matteo Razzanelli
+  - Mario Olivari
+  - Alessandro Brandimarti
+  - Michele Maimeri
+  - Paolo Pazzaglia
+  - Giovanni Pittiglio
+  - Roger Nuti
+  - Mario Innocenti
+  - "Heinrich B\xFClthoff"
+  publisher: IFAC-PapersOnLine
+  date: '2016-01-01'
+  link: https://doi.org/gtxgtp
+  orcid: 0000-0002-0714-5267
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1371/journal.pcbi.1007128
@@ -184,9 +222,6 @@
   publisher: PLOS Computational Biology
   date: '2020-12-04'
   link: https://doi.org/c7np
-  orcid: 0000-0002-4655-3773
-  plugin: sources.py
-  file: sources.yaml
   type: paper
   description: Lorem ipsum _dolor_ **sit amet**, consectetur adipiscing elit, sed
     do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -203,21 +238,8 @@
   - open science
   - collaboration
   repo: greenelab/meta-review
-- id: doi:10.1101/573782
-  title: Sequential compression of gene expression across dimensionalities and methods
-    reveals no single best method or dimensionality
-  authors:
-  - Gregory P. Way
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Daniel S. Himmelstein
-  - Casey S. Greene
-  publisher: Cold Spring Harbor Laboratory
-  date: '2019-03-11'
-  link: https://doi.org/gfxjxf
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
 - id: doi:10.1016/j.csbj.2020.05.017
   title: Constructing knowledge graphs and their biomedical applications
   authors:
