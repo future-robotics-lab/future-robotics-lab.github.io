@@ -1,8 +1,8 @@
 ---
-title: Example post 3
-image: images/photo.jpg
-author: john-doe
-tags: biology, medicine
+title: FuTURE Lab is Live!
+image: images/logo.png
+author: gio
+tags: updates
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Our website is live!
