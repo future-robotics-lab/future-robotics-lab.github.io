@@ -1,5 +1,5 @@
 ---
-title: FuTURE Lab is Live!
+title: FuTURE is here!
 image: images/logo.png
 author: gio
 tags: updates
