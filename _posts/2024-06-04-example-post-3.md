@@ -1,6 +1,6 @@
 ---
 title: FuTURE is here!
-image: images/logo_square.svg
+image: images/logo_square.png
 author: gio
 tags: updates
 ---
