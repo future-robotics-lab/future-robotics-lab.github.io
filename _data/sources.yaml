@@ -1,1 +1,15 @@
+- id: doi:10.1038/s44172-023-00098-9
+  type: paper
+  description: Robot navigation and design based on pre-operative imaging.
+  image: https://images.zapnito.com/cdn-cgi/image/metadata=copyright,fit=scale-down,format=auto,quality=95/https://images.zapnito.com/users/671164/posters/d8994dde-615c-4eb2-ba60-fb67a040491f_large.png
+  buttons:
+    - type: source
+      link: https://www.nature.com/articles/s44172-023-00098-9
+    - type: website
+      text: Behind the paper
+      link: https://communities.springernature.com/posts/personalized-magnetic-tentacles-for-targeted-photothermal-cancer-therapy-in-peripheral-lungs
+  tags:
+    - open science
+    - collaboration
 
+# ...another source
