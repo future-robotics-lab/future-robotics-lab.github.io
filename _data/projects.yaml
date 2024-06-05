@@ -1,10 +1,17 @@
-- title: Magnetic Ball Chain Robots
-  subtitle: Using chains of magnetic spheres for minimally invasive interventions.
+- title: Atrial Fibrillation
+  subtitle: Using robotics for high precision ablation.
   group: featured
-  image: images/projects/ball_chain_summary.png
-  link: https://www.youtube.com/watch?v=VIL8PeXaFS0&t=1s
-  description: Magnetic ball chains provide high bending, flexibility and interaction force with surrounding anatomy. These are amazing features in applications such as endovascular navigation and cardiac ablation.
+  image: images/projects/cardiac_ablation.png
+  description: In 2019, arrhythmia caused 180K deaths in the USA. The primary intervention is to perform ablation, able to restore regular heart rhythm. We develop robotic platforms for precise and safe ablation.
   tags:
     - continuum robots
-    - magnetic robots
+    - minimally invasive interventions
+
+  - title: Stroke
+  subtitle: Democratizing acute stroke care with robotics.
+  group: featured
+  image: images/projects/stroke.png
+  description: Stroke is amongst the deadliest diseases and affects 795K Americans every year. We work to create robots which can democratize access to critical interventions. 
+  tags:
+    - continuum robots
     - minimally invasive interventions
