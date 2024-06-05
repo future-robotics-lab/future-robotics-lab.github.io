@@ -64,8 +64,21 @@
   date: '2023-04-01'
   link: https://doi.org/gscqd9
   orcid: 0000-0002-0714-5267
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  type: paper
+  description: Dexterous magnetic manipulation using robotically-acuated permanent
+    magnets.
+  image: https://www.stormlabuk.com/wp-content/uploads/2022/10/lFg7aNit4G.png
+  buttons:
+  - type: source
+    link: https://ieeexplore.ieee.org/abstract/document/9911989
+  - type: website
+    text: ICRA23 Live Presentation
+    link: https://www.youtube.com/watch?v=fcaI-yIqCXk
+  tags:
+  - magnetic control
+  - magnetic actuation
 - id: doi:10.1109/LRA.2023.3274431
   title: Closed Loop Static Control of Multi-Magnet Soft Continuum Robots
   authors:
@@ -222,3 +235,34 @@
   orcid: 0000-0002-0714-5267
   plugin: orcid.py
   file: orcid.yaml
+- id: doi:10.1109/IROS55552.2023.10341686
+  title: Hybrid Tendon and Ball Chain Continuum Robots for Enhanced Dexterity in Medical
+    Interventions
+  authors:
+  - Giovanni Pittiglio
+  - Margherita Mencattelli
+  - Abdulhamit Donder
+  - Yash Chitalia
+  - Pierre E. Dupont
+  publisher: 2023 IEEE/RSJ International Conference on Intelligent Robots and Systems
+    (IROS)
+  date: '2023-10-01'
+  link: https://doi.org/gtxhmj
+  type: paper
+  description: Magnetic ball chain robots for cardiac interventions.
+  image: https://www.researchgate.net/profile/Giovanni-Pittiglio-2/publication/372125211/figure/fig1/AS:11431281177185610@1690384290843/Magnetic-ball-chain-robot-as-the-steerable-tip-of-an-interventional-system.ppm
+  buttons:
+  - type: source
+    link: https://ieeexplore.ieee.org/abstract/document/10341686
+  - type: website
+    text: IROS23 Video Presentation
+    link: https://youtu.be/ERo-VdEScmg
+  - type: website
+    text: ICRA23 Video Presentation
+    link: https://www.youtube.com/watch?v=VIL8PeXaFS0
+  tags:
+  - continuum robots
+  - magnetic robots
+  - minimally invasive medicine
+  plugin: sources.py
+  file: sources.yaml
