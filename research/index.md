@@ -11,13 +11,11 @@ nav:
 
 ## Highlighted
 
-{% include citation.html lookup="Hybrid Tendon and Ball Chain Continuum Robots for Enhanced Dexterity in Medical
-    Interventions" style="rich" %}
+{% include citation.html lookup="Hybrid Tendon and Ball Chain Continuum Robots for Enhanced Dexterity in Medical Interventions" style="rich" %}
 
 {% include citation.html lookup="Personalized magnetic tentacles for targeted photothermal cancer therapy in peripheral lungs" style="rich" %}
 
-{% include citation.html lookup="Collaborative Magnetic Manipulation via Two Robotically Actuated Permanent
-    Magnets" style="rich" %}
+{% include citation.html lookup="Collaborative Magnetic Manipulation via Two Robotically Actuated Permanent Magnets" style="rich" %}
 
 {% include section.html %}
 
