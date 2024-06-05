@@ -69,6 +69,15 @@ We value diverse and innovative thinking and we are building a multidisciplinary
   style="bare"
 %}
 
+{%
+  include button.html
+  link="contact"
+  text="Get in touch"
+  icon="fa-solid fa-arrow-right"
+  flip=true
+  style="bare"
+%}
+
 {% endcapture %}
 
 {%
