@@ -11,7 +11,7 @@
 
 {% capture text %}
 
-At FuTURE, our goal is investigating robotics that can improve people's life by enhancing precision and reach of critical medical intertions.
+Our goal is shaping the future of robotics that can improve people's life by enhancing precision and reach of critical medical interventions.
 
 {%
   include button.html
