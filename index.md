@@ -11,7 +11,7 @@
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+At FuTURE, our goal is investigating robotics that can improve people's life by improving precision and reach of critical medical intertions.
 
 {%
   include button.html
@@ -26,15 +26,14 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/projects/ball_chain_summary.png"
   link="research"
   title="Our Research"
   text=text
 %}
 
 {% capture text %}
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+We focus on minimally invasive surgical and diagnosis procedures, to reduce trauma and of life-saving procedures.
 
 {%
   include button.html
@@ -49,7 +48,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/projects/cardiac_ablation.png"
   link="projects"
   title="Our Projects"
   flip=true
@@ -59,7 +58,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+We value diverse and innovative thinking and we are building a multidisciplinary research team. Contact us to join the lab and push with us the limits of robotics in medicine!
 
 {%
   include button.html
@@ -74,7 +73,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/logo_square.png"
   link="team"
   title="Our Team"
   text=text
