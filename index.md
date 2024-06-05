@@ -11,7 +11,7 @@
 
 {% capture text %}
 
-At FuTURE, our goal is investigating robotics that can improve people's life by improving precision and reach of critical medical intertions.
+At FuTURE, our goal is investigating robotics that can improve people's life by enhancing precision and reach of critical medical intertions.
 
 {%
   include button.html
@@ -33,7 +33,7 @@ At FuTURE, our goal is investigating robotics that can improve people's life by 
 %}
 
 {% capture text %}
-We focus on minimally invasive surgical and diagnosis procedures, to reduce trauma and of life-saving procedures.
+We focus on minimally invasive surgical and diagnostic procedures, to reduce trauma of life-saving procedures.
 
 {%
   include button.html
