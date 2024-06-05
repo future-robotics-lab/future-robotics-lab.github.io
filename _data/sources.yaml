@@ -1,3 +1,21 @@
+- id: doi:10.1109/IROS55552.2023.10341686
+  type: paper
+  description: Magnetic ball chain robots for cardiac interventions.
+  image: https://www.researchgate.net/profile/Giovanni-Pittiglio-2/publication/372125211/figure/fig1/AS:11431281177185610@1690384290843/Magnetic-ball-chain-robot-as-the-steerable-tip-of-an-interventional-system.ppm
+  buttons:
+    - type: source
+      link: https://ieeexplore.ieee.org/abstract/document/10341686
+    - type: website
+      text: IROS23 Video Presentation
+      link: https://youtu.be/ERo-VdEScmg
+    - type: website
+      text: ICRA23 Video Presentation
+      link: https://www.youtube.com/watch?v=VIL8PeXaFS0
+  tags:
+    - continuum robots
+    - magnetic robots
+    - minimally invasive medicine
+
 - id: doi:10.1038/s44172-023-00098-9
   type: paper
   description: Robot navigation and design based on pre-operative imaging.
@@ -13,4 +31,16 @@
     - magnetic robots
     - minimally invasive medicine
 
-# ...another source
+- id: doi:10.1109/TRO.2022.3209038
+  type: paper
+  description: Dexterous magnetic manipulation using robotically-acuated permanent magnets.
+  image: https://www.stormlabuk.com/wp-content/uploads/2022/10/lFg7aNit4G.png
+  buttons:
+    - type: source
+      link: https://ieeexplore.ieee.org/abstract/document/9911989
+    - type: website
+      text: ICRA23 Live Presentation
+      link: https://www.youtube.com/watch?v=fcaI-yIqCXk
+  tags:
+    - magnetic control
+    - magnetic actuation
