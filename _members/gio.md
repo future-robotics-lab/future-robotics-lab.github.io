@@ -1,6 +1,6 @@
 ---
 name: Giovanni Pittiglio
-image: images/members/gio.png
+image: images/members/gpittiglio.jpg
 role: pi
 aliases:
   - G. Pittiglio
