@@ -1,5 +1,23 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.1109/LRA.2024.3426385
+  title: Breathing Compensation in Magnetic Robotic Bronchoscopy via Shape Forming
+  authors:
+  - Nikita Murasovs
+  - Vittorio Francescon
+  - Peter Lloyd
+  - Michele Di Lecce
+  - Damith S. Chathuranga
+  - Giovanni Pittiglio
+  - Onaizah Onaizah
+  - James H. Chandler
+  - Pietro Valdastri
+  publisher: IEEE Robotics and Automation Letters
+  date: '2024-01-01'
+  link: https://doi.org/gt4ck7
+  orcid: 0000-0002-0714-5267
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1038/s44172-023-00098-9
   title: Personalized magnetic tentacles for targeted photothermal cancer therapy
     in peripheral lungs
