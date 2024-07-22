@@ -1,6 +1,6 @@
 ---
 name: Aabha Tamhankar
-image: images/members/atamhankar.jpg
+image: images/members/atamhankar.jpeg
 role: phd 
 group: phd
 links:
