@@ -12,7 +12,7 @@ nav:
 
 
 {% include section.html background="images/background.jpg" dark=true %}
-# PhD Students:
+# PhD Students
 {% include list.html data="members" component="portrait" filters="role: phd" %}
 
 {% include section.html %}
