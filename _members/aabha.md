@@ -3,6 +3,9 @@ name: Aabha Tamhankar
 image: images/members/atamhankar.jpeg
 role: phd 
 group: phd
+aliases:
+  - A. Tamhankar
+  - Aabha
 links:
   home-page: https://taabhas.github.io/
   linkedin: aabha-tamhankar-9074a2246
