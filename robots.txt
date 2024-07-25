@@ -1,1 +1,1 @@
-Sitemap: http://future-lab.wpi.edu/sitemap.xml
+Sitemap: https://future-lab.wpi.edu/sitemap.xml
