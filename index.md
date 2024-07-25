@@ -2,7 +2,7 @@
 ---
 
 # FuTURE Lab - pushing the boundaries of medical robots and devices.
-
+The Future Therapeutic Unlimited Robotics Engineering Lab (FuTURE) focuses on pushing the limits of medical care and developing the future of medical devices and robots.
 
 
 {% include section.html %}
