@@ -37,7 +37,7 @@ nav:
 {%
   include figure.html
   image="images/PracticePoint.jpg"
-  caption="Practice Point"
+  caption="PracticePoint"
 %}
 
 {% endcapture %}
