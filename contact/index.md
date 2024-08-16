@@ -16,8 +16,14 @@ nav:
 {%
   include button.html
   type="address"
-  tooltip="Lab location (3rd floor)"
+  tooltip="Lab location (4th floor)"
   link="https://maps.app.goo.gl/PaHn1YaKtvTx4oti6"
+%}
+{%
+  include button.html
+  type="link"
+  tooltip="Book Office Hours"
+  link="https://calendar.app.google/YjbXjMrTLj4SAGN96"
 %}
 
 {% include section.html %}
