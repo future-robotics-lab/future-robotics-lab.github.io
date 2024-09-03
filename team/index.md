@@ -16,4 +16,6 @@ nav:
 {% include list.html data="members" component="portrait" filters="role: phd" %}
 
 {% include section.html %}
+# Master Students
+{% include list.html data="members" component="portrait" filters="role: msc" %}
 Looking for students excited to work on medical robots. Reach out to Giovanni Pittiglio with a short CV at gpittiglio@wpi.edu!
