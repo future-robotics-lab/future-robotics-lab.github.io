@@ -30,8 +30,23 @@
   - James H. Chandler
   - Pietro Valdastri
   publisher: IEEE Robotics and Automation Letters
-  date: '2024-01-01'
+  date: '2024-10-01'
   link: https://doi.org/gt4ck7
+  orcid: 0000-0002-0714-5267
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1109/TMRB.2024.3465828
+  title: Magnetic Ball Chain Robots for Cardiac Arrhythmia Treatment
+  authors:
+  - Giovanni Pittiglio
+  - Fabio Leuenberger
+  - Margherita Mencattelli
+  - Max McCandless
+  - "Edward O\u2019Leary"
+  - Pierre E. Dupont
+  publisher: IEEE Transactions on Medical Robotics and Bionics
+  date: '2024-11-01'
+  link: https://doi.org/g59fj3
   orcid: 0000-0002-0714-5267
   plugin: orcid.py
   file: orcid.yaml
