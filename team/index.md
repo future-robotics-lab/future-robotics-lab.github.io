@@ -18,4 +18,15 @@ nav:
 {% include section.html %}
 # Master Students
 {% include list.html data="members" component="portrait" filters="role: msc" %}
-Looking for students excited to work on medical robots. Reach out to Giovanni Pittiglio with a short CV at gpittiglio@wpi.edu!
+
+{% include section.html background="images/background.jpg" dark=true %}
+# Undergraduate Students
+{% include list.html data="members" component="portrait" filters="role: ug" %}
+
+We are looking for WPI students to join our lab for exciting research in medical robotics, software and devices. Fill out the [application form](https://wpi.qualtrics.com/jfe/form/SV_40jUQ0KpXpH6kHs) and we will reach out.
+
+{%
+  include figure.html
+  image="images/gatherings/christmass_24.jpg"
+  caption="FuTURE Lab Dinner Dec 11th."
+%}
