@@ -17,7 +17,7 @@ permissions:
 
 jobs:
   build-site:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
 
     steps:
       # for debugging
@@ -26,8 +26,11 @@ jobs:
       - name: Checkout branch contents
         uses: actions/checkout@v4
 
-      - name: Build Docker image
-        run: docker build -t site-builder .
+      - name: Install Ruby packages
+        uses: ruby/setup-ruby@v1.172.0
+        with:
+          ruby-version: "3.1"
+          bundler-cache: true
 
       - name: Get Pages url
         id: pages
@@ -43,8 +46,7 @@ jobs:
 
       - name: Build live version of site
         run: |
-          docker run --rm -v ${PWD}:/usr/src/app site-builder \
-          /bin/bash -c "JEKYLL_ENV=production bundle exec jekyll build --baseurl '${{ steps.pages.outputs.base_path || '' }}'"
+          JEKYLL_ENV=production bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path || '' }}"
 
       - name: Commit live site to Pages branch
         uses: JamesIves/github-pages-deploy-action@v4.5.0
