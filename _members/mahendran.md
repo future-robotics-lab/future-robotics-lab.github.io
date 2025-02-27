@@ -1,6 +1,6 @@
 ---
 name: Mahendran K
-image: 
+image: images/members/mk1.jpg
 role: msc 
 group: msc
 # aliases:

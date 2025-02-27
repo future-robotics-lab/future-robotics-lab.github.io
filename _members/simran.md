@@ -1,6 +1,6 @@
 ---
 name: Simran Chauhan
-image: 
+image: images/members/schauhan.jpg
 role: msc 
 group: msc
 # aliases:
