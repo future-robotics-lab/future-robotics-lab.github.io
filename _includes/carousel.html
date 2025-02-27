@@ -1,0 +1,161 @@
+<div class="carousel-container" {% if include.width %}style="width: {{ include.width }}; margin: 0 auto;" {% else
+    %}style="width: 800px; margin: 0 auto;" {% endif %}>
+    {% assign images = include.images | split: "," %}
+    {% assign captions = include.captions | split: "," %}
+
+    <div class="carousel-wrapper" {% if include.height %}style="height: {{ include.height }};" {% else
+        %}style="height: 500px;" {% endif %}>
+        {% for image in images %}
+        <div class="carousel-slide">
+            <div class="media-container">
+                {% assign file_ext = image | strip | split: "." | last | downcase %}
+                {% if file_ext == "mp4" or file_ext == "webm" or file_ext == "ogg" %}
+                <video controls>
+                    <source src="{{ image | strip | relative_url }}" type="video/{{ file_ext }}">
+                    Your browser does not support the video tag.
+                </video>
+                {% else %}
+                <img src="{{ image | strip | relative_url }}" alt="{{ captions[forloop.index0] | strip }}">
+                {% endif %}
+            </div>
+        </div>
+        {% endfor %}
+
+        <button class="carousel-prev" onclick="moveSlide(-1, this)">&#10094;</button>
+        <button class="carousel-next" onclick="moveSlide(1, this)">&#10095;</button>
+    </div>
+
+    {% if captions.size > 0 %}
+    <div class="carousel-caption">
+        {% for caption in captions %}
+        <p class="caption-text" data-index="{{ forloop.index0 }}">{{ caption | strip }}</p>
+        {% endfor %}
+    </div>
+    {% endif %}
+</div>
+
+<style>
+    .carousel-container {
+        position: relative;
+        margin-bottom: 2rem;
+        overflow: hidden;
+    }
+
+    .carousel-wrapper {
+        position: relative;
+        width: 100%;
+        background-color: #f8f8f8;
+        overflow: hidden;
+    }
+
+    .carousel-slide {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: none;
+    }
+
+    .carousel-slide.active {
+        display: block;
+    }
+
+    .media-container {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .carousel-slide img,
+    .carousel-slide video {
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: contain;
+    }
+
+    .carousel-caption {
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .caption-text {
+        display: none;
+        margin: 0;
+        font-style: italic;
+    }
+
+    .caption-text.active {
+        display: block;
+    }
+
+    .carousel-prev,
+    .carousel-next {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background: rgba(0, 0, 0, 0.5);
+        color: white;
+        border: none;
+        padding: 16px;
+        cursor: pointer;
+        z-index: 10;
+    }
+
+    .carousel-prev {
+        left: 0;
+    }
+
+    .carousel-next {
+        right: 0;
+    }
+</style>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        // Initialize all carousels on the page
+        document.querySelectorAll('.carousel-container').forEach(function (container) {
+            const slides = container.querySelectorAll('.carousel-slide');
+            const captions = container.querySelectorAll('.caption-text');
+
+            // Activate first slide and caption
+            if (slides.length > 0) {
+                slides[0].classList.add('active');
+            }
+
+            if (captions.length > 0) {
+                captions[0].classList.add('active');
+            }
+        });
+    });
+
+    function moveSlide(direction, button) {
+        // Find the container and its elements
+        const wrapper = button.closest('.carousel-wrapper');
+        const container = wrapper.closest('.carousel-container');
+        const slides = wrapper.querySelectorAll('.carousel-slide');
+        const captions = container.querySelectorAll('.caption-text');
+
+        // Find the active slide
+        let activeIndex = Array.from(slides).findIndex(slide => slide.classList.contains('active'));
+
+        // Remove active class from current slide and caption
+        slides[activeIndex].classList.remove('active');
+        if (captions.length > 0) {
+            captions[activeIndex].classList.remove('active');
+        }
+
+        // Calculate new index
+        activeIndex += direction;
+        if (activeIndex >= slides.length) activeIndex = 0;
+        if (activeIndex < 0) activeIndex = slides.length - 1;
+
+        // Add active class to new slide and caption
+        slides[activeIndex].classList.add('active');
+        if (captions.length > 0) {
+            captions[activeIndex].classList.add('active');
+        }
+    }
+</script>

@@ -1,3 +1,18 @@
+- id: arxiv:2502.15971
+  type: paper
+  title: "Towards Autonomous Navigation of Neuroendovascular Tools for Timely Stroke Treatment via Contact-aware Path Planning"
+  authors: "Aabha Tamhankar, Giovanni Pittiglio"
+  year: 2025
+  journal: "arXiv preprint arXiv:2502.15971"
+  description: Neurovascular tool planning
+  image: /images/projects/stroke_project/digest_slide.svg
+  buttons:
+    - type: source
+      link: https://arxiv.org/abs/2502.15971
+  tags:
+    - autonomous navigation
+    - neuroendovascular interventions
+
 - id: doi:10.1109/IROS55552.2023.10341686
   type: paper
   description: Magnetic ball chain robots for cardiac interventions.
@@ -44,3 +59,4 @@
   tags:
     - magnetic control
     - magnetic actuation
+

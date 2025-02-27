@@ -285,6 +285,26 @@
   orcid: 0000-0002-0714-5267
   plugin: orcid.py
   file: orcid.yaml
+- id: arxiv:2502.15971
+  title: Towards Autonomous Navigation of Neuroendovascular Tools for Timely Stroke
+    Treatment via Contact-aware Path Planning
+  authors: Aabha Tamhankar, Giovanni Pittiglio
+  publisher: arXiv
+  date: '2025-02-25'
+  link: https://arxiv.org/abs/2502.15971
+  type: paper
+  year: 2025
+  journal: arXiv preprint arXiv:2502.15971
+  description: Neurovascular tool planning
+  image: /images/projects/stroke_project/digest_slide.svg
+  buttons:
+  - type: source
+    link: https://arxiv.org/abs/2502.15971
+  tags:
+  - autonomous navigation
+  - neuroendovascular interventions
+  plugin: sources.py
+  file: sources.yaml
 - id: doi:10.1109/IROS55552.2023.10341686
   title: Hybrid Tendon and Ball Chain Continuum Robots for Enhanced Dexterity in Medical
     Interventions

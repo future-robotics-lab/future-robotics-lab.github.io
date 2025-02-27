@@ -1,4 +1,5 @@
 - title: Atrial Fibrillation
+  link: /projects/atrial_fib
   subtitle: Using robotics for high precision ablation.
   group: featured
   image: images/projects/cardiac_ablation.png
@@ -8,6 +9,7 @@
     - minimally invasive interventions
 
 - title: Stroke
+  link: /projects/stroke
   subtitle: Democratizing acute stroke care with robotics.
   group: featured
   image: images/projects/stroke.png
