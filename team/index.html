@@ -720,6 +720,30 @@
 <h1 id="undergraduate-students">Undergraduate Students</h1>
 
 <div class="portrait-wrapper">
+  <a href="/members/adam.html" class="portrait" data-style="" aria-label="Adam Hueil">
+    <img src="/images/members/adamh.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+
+    
+      <span class="portrait-text">
+        
+          <span class="portrait-name">
+            Adam Hueil
+          </span>
+        
+
+        
+          <span class="portrait-role">
+            
+            
+            <span></span>
+          </span>
+        
+      </span>
+    
+  </a>
+</div>
+
+<div class="portrait-wrapper">
   <a href="/members/okvogel.html" class="portrait" data-style="" aria-label="Olivia Vogel">
     <img src="/images/members/okvogel.JPG" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
 
@@ -742,23 +766,215 @@
     
   </a>
 </div>
+  </section>
+
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <!--
+  background: ;
+  dark: ;
+  size: ;
+-->
 
 <p>We are looking for WPI students to join our lab for exciting research in medical robotics, software and devices. Fill out the <a href="https://wpi.qualtrics.com/jfe/form/SV_40jUQ0KpXpH6kHs">application form</a> and we will reach out.</p>
 
-<figure class="figure">
-  <a class="figure-image" aria-label="FuTURE Lab Dinner Dec 11th.">
-    <img src="/images/gatherings/christmass_24.jpg" style="
-        width: auto;
-        max-height: unset;
-      " alt="FuTURE Lab Dinner Dec 11th." loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-  </a>
-  
-    <figcaption class="figure-caption">
-      FuTURE Lab Dinner Dec 11th.
+<div class="carousel-container" style="width: 1000px; margin: 0 auto;">
+    
+    
 
-    </figcaption>
-  
-</figure>
+    <div class="carousel-wrapper" style="height: 600px;">
+        
+        <div class="carousel-slide">
+            <div class="media-container">
+                
+                
+                <img src="/images/gatherings/christmass_24.jpg" alt="FuTURE Lab Dinner Dec 11th">
+                
+            </div>
+        </div>
+        
+        <div class="carousel-slide">
+            <div class="media-container">
+                
+                
+                <img src="/images/posts/Spring25_team.jpg" alt="FuTURE Lab Team Spring 2025">
+                
+            </div>
+        </div>
+        
+        <div class="carousel-slide">
+            <div class="media-container">
+                
+                
+                <img src="/images/posts/Summer25_adam.jpg" alt="Welcome EERE Summer Program Student - Adam Hueil">
+                
+            </div>
+        </div>
+        
+
+        <button class="carousel-prev" onclick="moveSlide(-1, this)">❮</button>
+        <button class="carousel-next" onclick="moveSlide(1, this)">❯</button>
+    </div>
+
+    
+    <div class="carousel-caption">
+        
+        <p class="caption-text" data-index="0">FuTURE Lab Dinner Dec 11th</p>
+        
+        <p class="caption-text" data-index="1">FuTURE Lab Team Spring 2025</p>
+        
+        <p class="caption-text" data-index="2">Welcome EERE Summer Program Student - Adam Hueil</p>
+        
+    </div>
+    
+</div>
+
+<style>
+    .carousel-container {
+        position: relative;
+        margin-bottom: 2rem;
+        overflow: hidden;
+    }
+
+    .carousel-wrapper {
+        position: relative;
+        width: 100%;
+        background-color: #f8f8f8;
+        overflow: hidden;
+    }
+
+    .carousel-slide {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: none;
+    }
+
+    .carousel-slide.active {
+        display: block;
+    }
+
+    .media-container {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .carousel-slide img,
+    .carousel-slide video {
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: contain;
+    }
+
+    .carousel-caption {
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .caption-text {
+        display: none;
+        margin: 0;
+        font-style: italic;
+    }
+
+    .caption-text.active {
+        display: block;
+    }
+
+    .carousel-prev,
+    .carousel-next {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background: rgba(0, 0, 0, 0.5);
+        color: white;
+        border: none;
+        padding: 16px;
+        cursor: pointer;
+        z-index: 10;
+    }
+
+    .carousel-prev {
+        left: 0;
+    }
+
+    .carousel-next {
+        right: 0;
+    }
+
+    .carousel-caption {
+        margin-top: 10px;
+        text-align: center !important;
+    }
+
+    .caption-text {
+        display: none;
+        margin: 0 auto !important;
+        font-style: italic;
+        text-align: center !important;
+        width: 100%;
+    }
+
+    .caption-text.active {
+        display: block;
+        text-align: center !important;
+    }
+</style>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        // Initialize all carousels on the page
+        document.querySelectorAll('.carousel-container').forEach(function (container) {
+            const slides = container.querySelectorAll('.carousel-slide');
+            const captions = container.querySelectorAll('.caption-text');
+
+            // Activate first slide and caption
+            if (slides.length > 0) {
+                slides[0].classList.add('active');
+            }
+
+            if (captions.length > 0) {
+                captions[0].classList.add('active');
+            }
+        });
+    });
+
+    function moveSlide(direction, button) {
+        // Find the container and its elements
+        const wrapper = button.closest('.carousel-wrapper');
+        const container = wrapper.closest('.carousel-container');
+        const slides = wrapper.querySelectorAll('.carousel-slide');
+        const captions = container.querySelectorAll('.caption-text');
+
+        // Find the active slide
+        let activeIndex = Array.from(slides).findIndex(slide => slide.classList.contains('active'));
+
+        // Remove active class from current slide and caption
+        slides[activeIndex].classList.remove('active');
+        if (captions.length > 0) {
+            captions[activeIndex].classList.remove('active');
+        }
+
+        // Calculate new index
+        activeIndex += direction;
+        if (activeIndex >= slides.length) activeIndex = 0;
+        if (activeIndex < 0) activeIndex = slides.length - 1;
+
+        // Add active class to new slide and caption
+        slides[activeIndex].classList.add('active');
+        if (captions.length > 0) {
+            captions[activeIndex].classList.add('active');
+        }
+    }
+</script>
   </section>
 
 
