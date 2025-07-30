@@ -50,16 +50,17 @@ nav:
 
 {% include cols.html col1=col1 col2=col2 %}
 
-**Apply to work with us**
+**Apply to work with us!**
+
 WPI Master Students opportunities:
 
 1) Image-based robot navigation in vascular interventions:  we are interested in building autonomous robots for stroke emergencies. Available opportunities:
   - 2D-to-3D image registration for the complex anatomy of the brain vessels. _Preferred background: robotics,  vision, imaging._
-  - Robot design and fabrication. Preferred background: mechanical engineering.
+  - Robot design and fabrication. _Preferred background: mechanical engineering_.
 
 2) Magnetic micro-robotics: we are developing the next generation of small-scale robots that can autonomously perceive and navigate their environment. Available opportunities:
   - Magnetic actuation. _Preferred background: robotics, electronics, mechanical engineering_.
-  - Magnetic Localization. _Preferred background: robotics, electronics._
+  - Magnetic Localization. _Preferred background: robotics, electronics_.
 
 3) Programming of UR10 Robot for Medical Interventions. _Preferred background: robotic manipulation_.
 
