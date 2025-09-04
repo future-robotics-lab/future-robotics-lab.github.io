@@ -1,8 +1,8 @@
 ---
 name: Simran Chauhan
 image: images/members/schauhan.jpg
-role: msc 
-group: msc
+role: alumni 
+group: alumni
 # aliases:
 #   - 
 #   - 
@@ -11,3 +11,4 @@ group: msc
 ---
 
 MS Robotics
+
