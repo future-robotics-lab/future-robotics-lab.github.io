@@ -1,8 +1,8 @@
 ---
 name: Keerthana Cheelamanthula
 image: images/members/kcheelamanthula.png
-role: msc 
-group: msc
+role: alumni 
+group: alumni
 aliases:
   - K. Cheelamanthula
   - Keerthana
@@ -11,3 +11,4 @@ links:
 ---
 
 MS Robotics - Thesis track
+
