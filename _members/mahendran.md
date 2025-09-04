@@ -1,8 +1,8 @@
 ---
 name: Mahendran K
 image: images/members/mk1.jpg
-role: msc 
-group: msc
+role: alumni 
+group: alumni
 # aliases:
 #   - 
 #   - 
@@ -11,3 +11,4 @@ group: msc
 ---
 
 MS Robotics
+
