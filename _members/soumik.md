@@ -1,8 +1,8 @@
 ---
 name: Soumik Saswat Patnaik
 image: images/members/sspatnaik.jpeg
-role: msc 
-group: msc
+role: alumni 
+group: alumni
 # aliases:
 #   - Soumik
 #   - sspatnaik
@@ -11,3 +11,4 @@ group: msc
 ---
 
 MS Robotics
+
