@@ -1,8 +1,8 @@
 ---
 name: Adam Hueil 
 image: images/members/adamh.jpg
-role: ug 
-group: ug
+role: alumni 
+group: alumni
 aliases:
 
 links:
