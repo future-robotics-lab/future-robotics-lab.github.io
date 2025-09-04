@@ -1,8 +1,8 @@
 ---
 name: Olivia Vogel
 image: images/members/okvogel.JPG
-role: ug 
-group: ug
+role: alumni 
+group: alumni
 aliases:
   - O. Vogel
   - O. K. Vogel
@@ -12,3 +12,4 @@ links:
 ---
 
 Olivia Vogel is a Mechanical Engineering and Biomedical Engineering undergraduate student at WPI currently pursuing her B.S. and M.Eng. in Biomedical Engineering, focusing on mechanical design for medical robots and devices.
+
