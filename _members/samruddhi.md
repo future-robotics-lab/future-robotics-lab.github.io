@@ -1,8 +1,8 @@
 ---
 name: Samruddhi Jadhav
 image: images/members/sjadhav.jpeg
-role: msc 
-group: msc
+role: alumni 
+group: alumni
 # aliases:
 #   - Soumik
 #   - sspatnaik
@@ -11,3 +11,4 @@ group: msc
 ---
 
 MS Robotics
+
