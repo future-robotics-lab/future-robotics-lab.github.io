@@ -3,13 +3,11 @@ name: Simran Chauhan
 image: images/members/schauhan.JPG
 role: alumni 
 group: alumni
-# aliases:
-#   - 
-#   - 
-# links:
-#   linkedin: 
+links:
+  linkedin: simran-chauhan-93184714b
 ---
 
 MS Robotics
+
 
 
