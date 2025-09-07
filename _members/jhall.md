@@ -1,6 +1,6 @@
 ---
 name: John Hall
-image: images/members/jhall.png
+image: images/members/jhall.jpg
 role: msc 
 group: msc
 # links:
