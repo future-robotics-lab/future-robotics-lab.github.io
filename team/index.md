@@ -34,6 +34,7 @@ We are looking for WPI students to join our lab for exciting research in medical
 
 
 {% include carousel.html width="1000px" height="600px" images="/images/gatherings/christmass_24.jpg,/images/posts/Spring25_team.jpg,/images/posts/Summer25_adam.jpg,/images
-/gatherings/Watatic_09_27_25.JPEG" captions="FuTURE Lab Dinner Dec 11th,FuTURE Lab Team Spring 2025,Welcome EERE Summer Program Student - Adam Hueil" %}
+/gatherings/Watatic_09_27_25.JPEG" captions="FuTURE Lab Dinner Dec 11th 2024,FuTURE Lab Team Spring 2025,Welcome EERE Summer Program Student - Adam Hueil,FuTURE Lab Hike Sept 27th 2025" %}
+
 
 
