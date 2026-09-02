@@ -1,8 +1,8 @@
 ---
 name: Dylan R. MacAllaster
 image: images/members/dmacallaster.jpg
-role: msc 
-group: msc
+role: alumni
+group: alumni
 links:
   linkedin: dylanmac1011
 ---

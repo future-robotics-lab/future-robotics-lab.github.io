@@ -1,8 +1,8 @@
 ---
 name: Cole G. Welcher
 image: images/members/cwelcher.jpg
-role: msc 
-group: msc
+role: alumni
+group: alumni
 links:
   linkedin: cole-g-welcher
 ---

@@ -10,7 +10,13 @@ nav:
 {% include section.html %}
 
 ## Highlighted
-{% include citation.html lookup="Towards Autonomous Navigation of Neuroendovascular Tools for Timely Stroke" style="rich" %}
+{% include citation.html lookup="doi:10.1109/LRA.2026.3662633" style="rich" %}
+
+{% include citation.html lookup="doi:10.1109/ismr69606.2026.11536408" style="rich" %}
+
+{% include citation.html lookup="doi:10.1109/ismr69606.2026.11536338" style="rich" %}
+
+{% include citation.html lookup="arxiv:2502.15971" style="rich" %}
 
 {% include citation.html lookup="Hybrid Tendon and Ball Chain Continuum Robots for Enhanced Dexterity in Medical Interventions" style="rich" %}
 

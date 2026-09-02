@@ -1,8 +1,8 @@
 ---
 name: Mobeen Hameed
 image: images/members/mhameed.jpg
-role: msc 
-group: msc
+role: alumni
+group: alumni
 links:
   linkedin: https://www.linkedin.com/in/mobeen-hameed/
 ---

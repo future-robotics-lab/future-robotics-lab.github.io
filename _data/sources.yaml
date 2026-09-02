@@ -60,3 +60,48 @@
     - magnetic control
     - magnetic actuation
 
+
+- id: doi:10.1109/LRA.2026.3662633
+  type: paper
+  title: "Contact-Aware Path Planning for Autonomous Neuroendovascular Navigation"
+  authors: "Aabha Tamhankar, Ron Alterovitz, Ajit S. Puri, Giovanni Pittiglio"
+  publisher: "IEEE Robotics and Automation Letters"
+  date: "2026-04-01"
+  description: Contact-aware planning for autonomous neurovascular navigation.
+  image: /images/posts/RAL26_expsetup.jpg
+  buttons:
+    - type: source
+      link: https://doi.org/10.1109/LRA.2026.3662633
+  tags:
+    - autonomous navigation
+    - neuroendovascular interventions
+
+- id: doi:10.1109/ismr69606.2026.11536408
+  type: paper
+  title: "An Anatomy-Specific Guidewire Shaping Robot for Improved Vascular Navigation"
+  authors: "Aabha Tamhankar, Jay Patil, Giovanni Pittiglio"
+  publisher: "2026 International Symposium on Medical Robotics (ISMR)"
+  date: "2026-04-22"
+  description: Patient-specific guidewire shaping for vascular navigation.
+  image: /images/projects/ismr26_guidewire_shaping.gif
+  buttons:
+    - type: source
+      link: https://ieeexplore.ieee.org/document/11536408
+  tags:
+    - autonomous navigation
+    - neuroendovascular interventions
+
+- id: doi:10.1109/ismr69606.2026.11536338
+  type: paper
+  title: "Design of Magnetic Continuum Robots with Tunable Force Response Using Rotational Ring Pairs"
+  authors: "Alex Sayres, Giovanni Pittiglio"
+  publisher: "2026 International Symposium on Medical Robotics (ISMR)"
+  date: "2026-04-22"
+  description: Magnetic continuum robots with tunable force response.
+  image: /images/projects/ismr26_ring_pairs.gif
+  buttons:
+    - type: source
+      link: https://ieeexplore.ieee.org/document/11536338
+  tags:
+    - continuum robots
+    - magnetic robots

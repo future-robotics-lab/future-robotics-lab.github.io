@@ -27,8 +27,7 @@ nav:
 
 <details>
   <summary style="cursor: pointer; list-style: none; outline: none; text-align: center;">
-    <h1>Alumni</h1> 
-    <p style="font-size: 1.1rem; color: gray; margin-top: -10px; text-align: center;">(Click to expand)</p>
+    <p style="font-size: 1.1rem; color: gray; text-align: center; text-decoration: underline; text-underline-offset: 6px;">Click to view our Alumni</p>
   </summary>
 
   <div style="margin-top: 20px;">
@@ -43,7 +42,7 @@ We are looking for WPI students to join our lab for exciting research in medical
 
 
 
-{% include carousel.html width="1000px" height="600px" images="/images/gatherings/christmass_24.jpg,/images/posts/Spring25_team.jpg,/images/posts/Summer25_adam.jpg,/images/gatherings/Watatic_09_27_25.JPEG" captions="FuTURE Lab Dinner Dec 11th 2024,FuTURE Lab Team Spring 2025,Welcome EERE Summer Program Student - Adam Hueil,FuTURE Lab Hike Sept 27th 2025" %}
+{% include carousel.html width="1000px" height="600px" images="/images/gatherings/christmass_24.jpg,/images/posts/Spring25_team.jpg,/images/posts/Summer25_adam.jpg,/images/gatherings/Watatic_09_27_25.JPEG, /images/gatherings/Summer26_team.jpeg" captions="FuTURE Lab Dinner Dec 11th 2024,FuTURE Lab Team Spring 2025,Welcome EERE Summer Program Student - Adam Hueil,FuTURE Lab Hike Sept 27th 2025, FuTURE Summer 2026 Team" %}
 
 
 
