@@ -27,7 +27,7 @@ nav:
 
 <details>
   <summary style="cursor: pointer; list-style: none; outline: none; text-align: center;">
-    <p style="font-size: 1.1rem; color: gray; text-align: center; text-decoration: underline; text-underline-offset: 6px;">Click to view our Alumni</p>
+    <p style="font-size: 1.1rem; color: gray; text-align: center; text-decoration: underline; text-underline-offset: 6px;">Our Alumni</p>
   </summary>
 
   <div style="margin-top: 20px;">
